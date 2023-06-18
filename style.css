@@ -1,0 +1,146 @@
+/* * {
+    outline: red dotted 1px;
+} */
+
+section {
+    margin: 0;
+    padding: 0;
+    margin-left: 15%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.whole {
+    display: flex;
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: aliceblue;
+}
+
+.navit {
+    padding: 20px 0;
+}
+
+.Navbar {
+    width: 5%;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.Navbar:hover {
+    width: 15%;
+}
+
+.navel {
+    display: flex;
+}
+
+.Navbar:hover .navla {
+    display: inline-block;
+}
+
+.navic {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.navla {
+    display: none;
+    align-self: center;
+    margin-left: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hometxt {
+    color: aliceblue;
+    font-size: larger;
+}
+
+.homepa {
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.homepa::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.homim {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.sechom {
+    height: 100vh;
+}
+
+.hoic {
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.homsoc {
+    text-align: center;
+}
+
+/* Media Query for hamburger menu */
+@media only screen and (max-width: 900px) {
+    .Navbar {
+        width: 100%;
+        display: none;
+    }
+
+    .Navbar.active {
+        display: block;
+    }
+
+    .navla {
+        display: inline-block;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: aliceblue;
+        margin: 5px 0;
+    }
+}

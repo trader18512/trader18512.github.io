@@ -2,14 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Augustine</title>
+    <title>Personal Webpage</title>
+    <link rel="icon" href="./imgs/dp1.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <h1>Its not You it's Me</h1>
-    <p style = "font-size: 20px;"> This site will be available soon. 🤗☕ </p>
-    <p>But you can still reach me <a href="mailto:augustinemwangi54@gmail.com">here</a></p>
-    
+<body class="home">
+    <div class="whol">
+        <nav>
+            <div class="Navbar">
+                <div class="hamburger" onclick="toggleNavbar()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav" id="navbar">
+                    <li class="navit"><a href="./index.html">
+                        <div class="navel">
+                            <i class="fa-solid navic fa-house-user"></i>
+                            <span class="navla">HOME</span>
+                        </div>
+                    </a></li>
+                    <li class="navit"><a href="./about.html">
+                        <div class="navel">
+                            <i class="fa-solid navic fa-user"></i>
+                            <span class="navla">ABOUT</span>
+                        </div>
+                    </a></li>
+                    <li class="navit"><a href="./contact.html">
+                        <div class="navel">
+                            <i class="fa-solid navic fa-address-book"></i>
+                            <span class="navla">CONTACT</span>
+                        </div>
+                    </a></li>
+                    <!-- <li class="navit"><a href="./labs.html">
+                        <div class="navel">
+                            <i class="fa-solid navic fa-flask"></i>
+                            <span class="navla">LABS</span>
+                        </div>
+                    </a></li> -->
+                </ul>
+            </div>
+        </nav>
+        <section class="sechom">
+            <div class="homepa">
+                <h1 style="color: aliceblue;">MWANGI AUGUSTINE MBITIRU</h1>
+                <p class="hometxt"> Programming, Data Science, Hobbyist Mechanic</p>
+                <div class="homsoc">
+                    <a href="https://github.com/trader18512"><i class="fa-brands hoic fa-github"></i></a>
+                    <a href="https://twitter.com/Mbitz_gustine"><i class="fa-brands hoic fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/augustine-mwangi-2658a4198"><i class="fa-brands hoic fa-linkedin"></i></a>
+                </div>
+                <img src="./imgs/image1.jpg" alt="" height="500px" >
+
+            </div>
+        </section>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
